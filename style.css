@@ -1,0 +1,96 @@
+/* using google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+                    /* honda header section  */
+.honda-row-header{
+    background: #264653 !important;
+}
+.btn-honda{
+    background: #E76F51 ;
+    border-radius: 5px;
+    border: none ;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+
+}
+.btn-honda:hover{
+    background-color: green !important;
+    cursor: pointer;
+}
+
+            /* featured bike 2021 section  */
+
+.honda-small-color{
+    color: #E76F51 ;
+    font-weight: 700;
+}
+
+.honda-gray-scale>img{
+    filter: grayscale(100%);
+}
+
+                /* happy Client Section     */  
+h1>span{ color: #E76F51 ;                            
+ }
+.card{
+    padding: 1.5em .5em .5em;
+    border-radius: .5em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.card>img{
+    width: 65%;
+    border-radius: 50%;
+    
+    margin:  auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.filled {
+    color: #E76F51;
+}
+.unfilled{
+    color: #E76F51;
+}
+h6>span{
+    color: #23a6f0 !important;
+    font-weight: 600;
+}
+
+.anchor>a{
+   
+    font-size: 20px;
+    cursor: pointer;
+    color: honeydew;
+    text-decoration: none;
+}
+.anchor>a:hover{
+   
+    color: greenyellow;
+}
+
+
+.honda-search{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 20px;
+   
+}
+.honda-search>a>button{
+   
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #E76F51;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+} 
+.honda-search>a>button:hover{
+   background-color: green;
+} 
